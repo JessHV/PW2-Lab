@@ -1,6 +1,7 @@
-public class Calculadora {
+public class calculator {
 
-	static int add(int a, int b){ //Antony
+	
+    static int add(int a, int b){ //Antony
 		//return ;
 	}
 
