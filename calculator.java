@@ -1,11 +1,12 @@
 public class calculator {
 
-	//Comentario pruebaaa
+	//Comentario pruebaaa DE
     static int add(int a, int b){ //Antony
 		//return ;
 	}
 
-	static int sub(int a, int b){  //Oliver
+	static int sub(int a, int b){  //Oliver mayta Nolasco
+		//otro comentario :V
 		//return ;
 	}
 	
