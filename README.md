@@ -19,40 +19,114 @@
 </div>
 
 <div align="center">
-<span style="font-weight:bold;">GUÍA DE LABORATORIO</span><br />
-<span>(formato docente)</span>
+    <span style="font-weight:bold;">INFORME DE LABORATORIO</span><br />
+    <span>(formato estudiante)</span>
 </div>
 
 
 <table>
 <theader>
-<tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
+    <tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
 </theader>
 <tbody>
-<tr><td>ASIGNATURA:</td><td colspan="5">Programación Web 2</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Git - GitHub</td></tr>
-<tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>01</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
-</tr>
-<tr>
-<td>FECHA INICIO::</td><td>25-Abr-2022</td><td>FECHA FIN:</td><td>29-Abr-2022</td><td>DURACIÓN:</td><td>04 horas</td>
-</tr>
-<tr><td colspan="6">RECURSOS A UTILIZAR:
-<ul>
-<li><a href="https://guides.github.com/">https://guides.github.com/</a></li>
-<li><a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a></li>
-</ul>
-</td>
-</<tr>
-<tr><td colspan="6">DOCENTES:
-<ul>
-<li>Richart Smith Escobedo Quispe (rescobedoq@unsa.edu.pe)</li>
-</ul>
-</td>
-</<tr>
+    <tr>
+        <td>ASIGNATURA:</td><td colspan="5">Laboratorio de Programación Web 2</td>
+    </tr>
+    <tr>
+        <td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Git - GitHub</td>
+    </tr>
+    <tr>
+        <td>NÚMERO DE PRÁCTICA:</td><td>01</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+    </tr>
+    <tr>
+        <td colspan="2">FECHA DE PRESENTACIÓN:</td><td>29-Abr-2022</td><td>HORA DE PRESENTACIÓN:</td><td>16:00</td>
+    </tr>
+    <tr>
+        <td colspan="3">INTEGRANTES(s):
+        <ol>
+        <li>Blanco Trujillo, Antony Jacob</li>
+        <li>Cahuana Aguilar, Josué Mathías Miguel</li>
+        <li>Hancco Velásquez, Jessica Geraldine</li>
+        <li>Mayta Nolasco, Oliver Alessandro</li>
+        <li>Umasi Cariapaza, Carlos Daniel</li>
+        </ol>
+        </td>
+        <td> NOTA:</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td colspan="6">DOCENTES:
+        <ul>
+            <li>Richart Smith Escobedo Quispe</li>
+        </ul>
+        </td>
+    </tr>
 </tdbody>
 </table>
 
+<table>
+    <theader>
+        <tr>
+            <td>SOLUCIÓN Y RESULTADOS</td>
+        </tr>
+    </theader>
+    <tbody>
+        <tr>
+            <td>
+            I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS
+            - Cree una cuenta de usuario en github
+            - Configure su cuenta de estudiante (https://education.github.com/pack).
+            - Se desea crear una clase Calculator en Java, que tenga las siguientes operaciones: add, sub, mul, div, mod; estas operaciones recibirán dos enteros y devolverán un
+            entero.
+            </td>
+        </tr>
+        <tr>
+            <td>
+            II. SOLUCIÓN DEL CUESTIONARIO<br>
+            <b>¿Por qué Git es una herramienta importante en el curso de Programación Web 2?</b><br>
+            El curso de Programación Web 2 incluirá trabajos en equipo o individuales, los cuales implican en cualquier sentido el uso de la programación.
+            Para el caso de uso de frameworks y/o tareas en equipo se trabajará con proyectos complejos en forma de plantilla, por lo cual se pueden cometer errores o se necesitarán realizar pruebas se vuelve un trabajo que toma mucho tiempo, es por ello que requerimos de un sistema de control de versiones, como el caso de Git que es una herramienta importante porque nos permite trabajar en grupo de manera eficiente y progresiva, esto debido a que nos permite hacer “commits”, puntos de guardado que nos permitirán regresar a una versión en la cual no haya errores.
+            </td>
+        </tr>
+        <tr>
+            <td>
+            III. CONCLUSIONES
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <theader>
+        <tr>
+            <td>RETROALIMENTACIÓN GENERAL</td>
+        </tr>
+    </theader>
+    <tbody>
+        <tr>
+            <td>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <theader>
+        <tr>
+            <td>REFERENCIAS Y BIBLIOGRAFÍA</td>
+        </tr>
+    </theader>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li>https://guides.github.com/</li>
+                    <li>https://git-scm.com/book/es/v2</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 # OBJETIVOS TEMAS Y COMPETENCIAS
 
@@ -73,84 +147,6 @@ usuarios
 # CONTENIDO DE LA GUÍA
 
 ## MARCO CONCEPTUAL
-- git init
-    - Crea un nuevo proyecto local, se crean archivos en el directorio oculto .git
-    ```sh
-    git init
-    ```
-
-- git config
-    - Establece variables de configuración. Por ejemplo para los commits se necesita los datos del desarrollador. Se puede especificar el editor y hasta el tiempo que deseas almacenar tus credenciales en la cache y otras cosas más
-    ```sh
-    git config --global user.name "Richart Smith Escobedo Quispe"
-    git config --global user.email rescobedoq@unsa.edu.pe
-    git config --list
-    git config user.name
-    git config --global core.editor "code --wait"
-    git config --global credential.helper 'cache --timeout=3600'
-    ```
-
-- git status
-    - Permite verificar el estado de los archivos
-    ```sh
-    git status
-    ```
-- git add
-    - Añade archivos al staging area. El punto "." agrega todos
-    ```sh
-    git add HolaMundo.java
-    git .
-    ```
-
-- git commit
-    - Sube los archivos al área de staging, en la máquina local. La opción -m permite escribir el mensaje en línea
-    ```sh
-    git commit -m "Probando el Hola Mundo"    
-    ```
-
-- git push
-    - Permite subir archivos al repositorio remoto
-
-- git show
-    - Muestra detalles del commit actual
-    ```sh
-    git show
-    ```
-
--   git log
-    - Permite ver un resumen de los commit realizados
-    ```sh
-    git log
-    git log --pretty=oneline
-    git log --graph --pretty=oneline --abbrev-commit --all
-    git log --pretty=format:"%h - %an, %ar : %s"
-    git log -p -2
-    ```
-
-- git diff
-    - Permite comparar los cambios en los archivos
-    ```sh
-    git diff
-    ```
-
-- git clone
-    - Clona un repositorio remoto desde CERO
-    ```sh
-    git clone https://github.com/rescobedoq/pweb2.git
-    ```
-
-- git checkout
-    - Permite regresar a versiones anteriores o saltar a otra rama
-    ```sh
-    git checkout master
-    ```
-
-- git pull
-    - Permite descargar los cambios del repositorio remoto al directorio local
-
-- git branch
-    - Permite ver las ramas existentes o crea una rama alternativa al proyecto principal git branch -a
-
 ## EJERCICIO/PROBLEMA RESUELTO POR EL DOCENTE
 Primer repositorio en GitHub
 - Creamos un nuevo proyecto en GitHub
@@ -166,14 +162,9 @@ Primer repositorio en GitHub
 - Cree una cuenta de usuario en github
 - Configure su cuenta de estudiante (https://education.github.com/pack).
 - Se desea crear una clase Calculator en Java, que tenga las siguientes operaciones: add, sub, mul, div, mod; estas operaciones recibirán dos enteros y devolverán un
-entero. (Forme grupos de 3 a 5 personas)
+entero.
 
-## CUESTIONARIO
-- ¿Por qué Git es una herramienta importante en el curso de Programación Web 2?
 
-## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
-- https://guides.github.com/
-- https://git-scm.com/book/es/v2
 
 
 
