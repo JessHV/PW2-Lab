@@ -42,7 +42,7 @@
         <td colspan="2">FECHA DE PRESENTACIÓN:</td><td>29-Abr-2022</td><td>HORA DE PRESENTACIÓN:</td><td>16:00</td>
     </tr>
     <tr>
-        <td colspan="3">INTEGRANTES(s):
+        <td colspan="4">INTEGRANTES:
         <ol>
         <li>Blanco Trujillo, Antony Jacob</li>
         <li>Cahuana Aguilar, Josué Mathías Miguel</li>
@@ -52,12 +52,12 @@
         </ol>
         </td>
         <td> NOTA:</td>
-        <td> </td>
+        <td>     </td>
     </tr>
     <tr>
-        <td colspan="6">DOCENTES:
+        <td colspan="6">DOCENTE:
         <ul>
-            <li>Richart Smith Escobedo Quispe</li>
+            <li>Mg. Richart Smith Escobedo Quispe</li>
         </ul>
         </td>
     </tr>
@@ -67,17 +67,22 @@
 <table>
     <theader>
         <tr>
-            <td>SOLUCIÓN Y RESULTADOS</td>
+            <th>SOLUCIÓN Y RESULTADOS</th>
         </tr>
     </theader>
     <tbody>
         <tr>
             <td>
-            I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS
-            - Cree una cuenta de usuario en github
-            - Configure su cuenta de estudiante (https://education.github.com/pack).
-            - Se desea crear una clase Calculator en Java, que tenga las siguientes operaciones: add, sub, mul, div, mod; estas operaciones recibirán dos enteros y devolverán un
-            entero.
+            I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
+            Repositorios personales<br>
+            <ol>
+                <li>Blanco Trujillo, Antony Jacob<br>https://github.com/AntonyBlanco/pw2Lab</li>
+                <li>Cahuana Aguilar, Josué Mathías Miguel<br>https://github.com/josuecahuana/PW2-Josue_Cahuana.git</li>
+                <li>Hancco Velásquez, Jessica Geraldine<br>https://github.com/JessHV/PW2-Jessica_Hancco.git</li>
+                <li>Mayta Nolasco, Oliver Alessandro<br>https://github.com/oliver092377/pw2Lab1</li>
+                <li>Umasi Cariapaza, Carlos Daniel<br>https://github.com/cumasic/PW2</li>
+            </ol>
+            Repositorio general
             </td>
         </tr>
         <tr>
@@ -99,7 +104,7 @@
 <table>
     <theader>
         <tr>
-            <td>RETROALIMENTACIÓN GENERAL</td>
+            <th>RETROALIMENTACIÓN GENERAL</th>
         </tr>
     </theader>
     <tbody>
@@ -113,7 +118,7 @@
 <table>
     <theader>
         <tr>
-            <td>REFERENCIAS Y BIBLIOGRAFÍA</td>
+            <th>REFERENCIAS Y BIBLIOGRAFÍA</th>
         </tr>
     </theader>
     <tbody>
