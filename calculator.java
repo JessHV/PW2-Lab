@@ -4,7 +4,7 @@ public class calculator {
     static int add(int a, int b){ //Antony
 		//return ;
 	}
-
+	// resta 2 numeros enteros
 	static int sub(int a, int b){  //Oliver mayta Nolasco
 		//otro comentario :V
 		//return ;
