@@ -2,7 +2,8 @@ public class calculator {
 
 	
     static int add(int a, int b){ //Antony
-		//return ;
+	// Devuelve la suma entera de 2 numeros enteros recibidos
+		return a + b ;
 	}
 
 	static int sub(int a, int b){  //Oliver
