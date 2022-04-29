@@ -18,8 +18,8 @@ public class calculator {
 	}
 	
 	static int mod(int a, int b){  //Carlos
-		//Probando las ramas
-		//return ;
+		//Devuelve el módulo de 2 enteros
+		return a%b;
 	}
 
 }
