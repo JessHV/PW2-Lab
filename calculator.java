@@ -10,7 +10,7 @@ public class calculator {
 	}
 	
 	static int mul(int a, int b){ //Jessica
-		//return ;
+		return a * b;
 	}
 	
 	static int div(int a, int b){  //Josue
