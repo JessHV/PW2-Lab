@@ -5,7 +5,7 @@ public class calculator {
 	}
 	// resta 2 numeros enteros
 	static int sub(int a, int b){  //Oliver 
-		return a+b;
+		return a-b;
 	}
 	
 	static int mul(int a, int b){ //Jessica
