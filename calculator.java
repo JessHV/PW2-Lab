@@ -1,13 +1,11 @@
 public class calculator {
 
-	//Comentario pruebaaa DE
     static int add(int a, int b){ //Antony
 		//return ;
 	}
 	// resta 2 numeros enteros
-	static int sub(int a, int b){  //Oliver mayta Nolasco
-		//otro comentario :V
-		//return ;
+	static int sub(int a, int b){  //Oliver 
+		return a+b;
 	}
 	
 	static int mul(int a, int b){ //Jessica
