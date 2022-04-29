@@ -14,7 +14,9 @@ public class calculator {
 	}
 	
 	static int div(int a, int b){  //Josue
-		//return ;
+		int result;
+		result = a/b;
+		return result;
 	}
 	
 	static int mod(int a, int b){  //Carlos
