@@ -1,23 +1,28 @@
 public class calculator {
 
     static int add(int a, int b){ //Antony
-		//return ;
+		//devuelve la suma de 2 enteros
+		return a+b;
 	}
-	// resta 2 numeros enteros
-	static int sub(int a, int b){  //Oliver 
+	
+	static int sub(int a, int b){  //Oliver
+		//devuelve resta 2 números enteros 
 		return a-b;
 	}
 	
 	static int mul(int a, int b){ //Jessica
-		//return ;
+		//devuelve multiplicación 2 números enteros 
+		return a*b;
 	}
 	
 	static int div(int a, int b){  //Josue
-		//return ;
+		//devuelve división 2 números enteros 
+		return a/b;
 	}
 	
 	static int mod(int a, int b){  //Carlos
-		//return ;
+		//devuelve el módulo 2 números enteros 
+		return a%b;
 	}
 
 }
