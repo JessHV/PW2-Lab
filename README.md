@@ -20,16 +20,13 @@
 </div>
 -->
 <div align="center">
-    <span style="font-weight:bold;">INFORME DE LABORATORIO</span>
+    <span style="font-weight:bold;"><h2>INFORME DE LABORATORIO</h2></span>
 </div>
 
-<style>
-    
-</style>
 
-<table>
+<table style="">
 <theader>
-    <tr><th colspan="6" style="width:50%; height:auto">INFORMACIÓN BÁSICA</th></tr>
+    <tr><th colspan="6" style="width:50%; height:auto; text-align:center">INFORMACIÓN BÁSICA</th></tr>
 </theader>
 <tbody>
     <tr>
@@ -68,7 +65,7 @@
 <table>
     <theader>
         <tr>
-            <th>SOLUCIÓN Y RESULTADOS</th>
+            <th style="text-align:center">SOLUCIÓN Y RESULTADOS</th>
         </tr>
     </theader>
     <tbody>
@@ -83,15 +80,19 @@
                 <li>Mayta Nolasco, Oliver Alessandro<br>https://github.com/oliver092377/pw2Lab1</li>
                 <li>Umasi Cariapaza, Carlos Daniel<br>https://github.com/cumasic/PW2</li>
             </ol>
-            Repositorio general<br>https://github.com/JessHV/PW2-Lab.git
+            Repositorio general<br>https://github.com/JessHV/PW2-Lab.git<br><br>
+            Las Ramas de todos<br>
+            <img src="https://drive.google.com/drive/folders/1cpKnHDaPtfznB4MGxzAec161tR_IT2Cg" atl="Ramas de los integrantes del grupo 1"> <br><br>
+            Calculadora en java<br>
+            <img src="https://drive.google.com/drive/folders/1cpKnHDaPtfznB4MGxzAec161tR_IT2Cg" atl="Archivo Calculator.java">
             </td>
         </tr>
         <tr>
             <td>
             II. SOLUCIÓN DEL CUESTIONARIO<br>
             <b>¿Por qué Git es una herramienta importante en el curso de Programación Web 2?</b><br>
-            El curso de Programación Web 2 incluirá trabajos en equipo  individuales, los cuales implican en cualquier sentido el uso de la programación.
-            Para el caso de uso de frameworks y/o tareas en equipo se trabajará con proyectos complejos en forma de plantilla, por lo cual se pueden cometer errores o se necesitarán realizar pruebas se vuelve un trabajo que toma mucho tiempo, es por ello que requerimos de un sistema de control de versiones, como el caso de Git que es una herramienta importante porque nos permite trabajar en grupo de manera eficiente y progresiva, esto debido a que nos permite hacer “commits”, puntos de guardado que nos permitirán regresar a una versión en la cual no haya errores.
+            El curso de Programación Web 2 incluirá trabajos en equipo e individuales, los cuales implican en cualquier sentido el uso de la programación.
+            Para el caso de uso de frameworks y/o tareas en equipo se trabajará con proyectos complejos en forma de plantilla, por lo cual se pueden cometer errores o se necesitarán realizar pruebas y eso se vuelve un trabajo que toma mucho tiempo, es por ello que requerimos de un sistema de control de versiones, como el caso de Git que es una herramienta importante porque nos permite trabajar en grupo de manera eficiente y progresiva, esto debido a que nos permite hacer “commits”, puntos de guardado que nos permitirán regresar a una versión en la cual no haya errores.
             </td>
         </tr>
         <tr>
@@ -110,7 +111,7 @@
 <table>
     <theader>
         <tr>
-            <th>RETROALIMENTACIÓN GENERAL</th>
+            <th style="text-align:center">RETROALIMENTACIÓN GENERAL</th>
         </tr>
     </theader>
     <tbody>
@@ -124,7 +125,7 @@
 <table>
     <theader>
         <tr>
-            <th>REFERENCIAS Y BIBLIOGRAFÍA</th>
+            <th style="text-align:center">REFERENCIAS Y BIBLIOGRAFÍA</th>
         </tr>
     </theader>
     <tbody>
