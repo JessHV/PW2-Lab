@@ -1,7 +1,6 @@
 public class calculator {
 
-	//Comentario pruebaaa
-    static int add(int a, int b){ //Antony
+	static int add(int a, int b){ //Antony
 	// Devuelve la suma entera de 2 numeros enteros recibidos
 		return a + b ;
 	}
@@ -15,7 +14,9 @@ public class calculator {
 	}
 	
 	static int div(int a, int b){  //Josue
-		//return ;
+		int result;
+		result = a/b;
+		return result;
 	}
 	
 	static int mod(int a, int b){  //Carlos
