@@ -1,4 +1,5 @@
-<div align="center">
+
+<!--
 <table>
     <theader>
         <tr>
@@ -17,20 +18,22 @@
     </tbody>
 </table>
 </div>
-
+-->
 <div align="center">
-    <span style="font-weight:bold;">INFORME DE LABORATORIO</span><br />
-    <span>(formato estudiante)</span>
+    <span style="font-weight:bold;">INFORME DE LABORATORIO</span>
 </div>
 
+<style>
+    
+</style>
 
 <table>
 <theader>
-    <tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
+    <tr><th colspan="6" style="width:50%; height:auto">INFORMACIÓN BÁSICA</th></tr>
 </theader>
 <tbody>
     <tr>
-        <td>ASIGNATURA:</td><td colspan="5">Laboratorio de Programación Web 2</td>
+        <td>ASIGNATURA:</td><td colspan="6">Laboratorio de Programación Web 2</td>
     </tr>
     <tr>
         <td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Git - GitHub</td>
@@ -87,7 +90,7 @@
             <td>
             II. SOLUCIÓN DEL CUESTIONARIO<br>
             <b>¿Por qué Git es una herramienta importante en el curso de Programación Web 2?</b><br>
-            El curso de Programación Web 2 incluirá trabajos en equipo o individuales, los cuales implican en cualquier sentido el uso de la programación.
+            El curso de Programación Web 2 incluirá trabajos en equipo  individuales, los cuales implican en cualquier sentido el uso de la programación.
             Para el caso de uso de frameworks y/o tareas en equipo se trabajará con proyectos complejos en forma de plantilla, por lo cual se pueden cometer errores o se necesitarán realizar pruebas se vuelve un trabajo que toma mucho tiempo, es por ello que requerimos de un sistema de control de versiones, como el caso de Git que es una herramienta importante porque nos permite trabajar en grupo de manera eficiente y progresiva, esto debido a que nos permite hacer “commits”, puntos de guardado que nos permitirán regresar a una versión en la cual no haya errores.
             </td>
         </tr>
@@ -95,8 +98,8 @@
             <td>
             III. CONCLUSIONES<br>
                 <ul>
-                    <li>Git</li>
-                    <li>GitHub facilita la tarea de mantener un sistema de control de versiones en repositorios con proyectos compartidos como tambien personales.</li>
+                    <li>Git es como la representación de cambios guardados como en una estructura de arbol pasando por las fases de modificación, preparación y confirmación de un cambio.</li>
+                    <li>GitHub facilita la tarea de mantener un sistema de control de versiones en repositorios con proyectos compartidos como tambien personales, ya que ofrece muchas opciones para desarrolladores.</li>
                     <li>Existen diversos softwares editores de código que simplifican codificación, la cuestión es elegir la adecuada ya que se diferencian por los lenguajes de programación que manejan y otras características.</li>
                 </ul>
             </td>
@@ -111,7 +114,7 @@
         </tr>
     </theader>
     <tbody>
-        <tr colspan ="6">
+        <tr>
             <td>
             </td>
         </tr>
@@ -127,10 +130,8 @@
     <tbody>
         <tr>
             <td>
-                <ul>
-                    <li>https://guides.github.com/</li>
-                    <li>https://git-scm.com/book/es/v2</li>
-                </ul>
+                [1] Escobedo, R., 2022. pw2/labs/lab01 at main · rescobedoq/pw2. [online] GitHub. Available at: https://github.com/rescobedoq/pw2/tree/main/labs/lab01.<br>
+                [2] Proyectos de tecnología con arduino, 2022. Manejo de ramas de Git, en vs code . (branch). [video] Available at: https://www.youtube.com/watch?v=k8UlMFtNDpE.
             </td>
         </tr>
     </tbody>
