@@ -39,10 +39,10 @@
         <td>NÚMERO DE PRÁCTICA:</td><td>01</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
     </tr>
     <tr>
-        <td colspan="2">FECHA DE PRESENTACIÓN:</td><td>29-Abr-2022</td><td>HORA DE PRESENTACIÓN:</td><td>16:00</td>
+        <td colspan="2">FECHA DE PRESENTACIÓN:</td><td>29-Abr-2022</td><td colspan="2">HORA DE PRESENTACIÓN:</td><td>16:00</td>
     </tr>
     <tr>
-        <td colspan="3">INTEGRANTES(s):
+        <td colspan="3">INTEGRANTES:
         <ol>
         <li>Blanco Trujillo, Antony Jacob</li>
         <li>Cahuana Aguilar, Josué Mathías Miguel</li>
@@ -51,14 +51,12 @@
         <li>Umasi Cariapaza, Carlos Daniel</li>
         </ol>
         </td>
-        <td> NOTA:</td>
-        <td> </td>
+        <td colspan="2"> NOTA:</td>
+        <td>     </td>
     </tr>
     <tr>
-        <td colspan="6">DOCENTES:
-        <ul>
-            <li>Richart Smith Escobedo Quispe</li>
-        </ul>
+        <td colspan="6">DOCENTE:<br>
+        Mg. Richart Smith Escobedo Quispe
         </td>
     </tr>
 </tdbody>
@@ -67,17 +65,22 @@
 <table>
     <theader>
         <tr>
-            <td>SOLUCIÓN Y RESULTADOS</td>
+            <th>SOLUCIÓN Y RESULTADOS</th>
         </tr>
     </theader>
     <tbody>
         <tr>
             <td>
-            I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS
-            - Cree una cuenta de usuario en github
-            - Configure su cuenta de estudiante (https://education.github.com/pack).
-            - Se desea crear una clase Calculator en Java, que tenga las siguientes operaciones: add, sub, mul, div, mod; estas operaciones recibirán dos enteros y devolverán un
-            entero.
+            I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
+            Repositorios personales<br>
+            <ol>
+                <li>Blanco Trujillo, Antony Jacob<br>https://github.com/AntonyBlanco/pw2Lab</li>
+                <li>Cahuana Aguilar, Josué Mathías Miguel<br>https://github.com/josuecahuana/PW2-Josue_Cahuana.git</li>
+                <li>Hancco Velásquez, Jessica Geraldine<br>https://github.com/JessHV/PW2-Jessica_Hancco.git</li>
+                <li>Mayta Nolasco, Oliver Alessandro<br>https://github.com/oliver092377/pw2Lab1</li>
+                <li>Umasi Cariapaza, Carlos Daniel<br>https://github.com/cumasic/PW2</li>
+            </ol>
+            Repositorio general<br>https://github.com/JessHV/PW2-Lab.git
             </td>
         </tr>
         <tr>
@@ -90,7 +93,12 @@
         </tr>
         <tr>
             <td>
-            III. CONCLUSIONES
+            III. CONCLUSIONES<br>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub facilita la tarea de mantener un sistema de control de versiones en repositorios con proyectos compartidos como tambien personales.</li>
+                    <li>Existen diversos softwares editores de código que simplifican codificación, la cuestión es elegir la adecuada ya que se diferencian por los lenguajes de programación que manejan y otras características.</li>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -99,11 +107,11 @@
 <table>
     <theader>
         <tr>
-            <td>RETROALIMENTACIÓN GENERAL</td>
+            <th>RETROALIMENTACIÓN GENERAL</th>
         </tr>
     </theader>
     <tbody>
-        <tr>
+        <tr colspan ="6">
             <td>
             </td>
         </tr>
@@ -113,7 +121,7 @@
 <table>
     <theader>
         <tr>
-            <td>REFERENCIAS Y BIBLIOGRAFÍA</td>
+            <th>REFERENCIAS Y BIBLIOGRAFÍA</th>
         </tr>
     </theader>
     <tbody>
@@ -128,41 +136,13 @@
     </tbody>
 </table>
 
-# OBJETIVOS TEMAS Y COMPETENCIAS
 
-## OBJETIVOS
-
-- Aprender a manejar un sistema de control de versiones de manera colaborativa con varios
-usuarios
-
-## TEMAS
-- Git
-- GitHub
-
+<!--
 ## COMPETENCIAS
 - C.c Diseña responsablemente sistemas, componentes o procesos para satisfacer necesidades dentro de restricciones realistas: económicas, medio ambientales, sociales, políticas, éticas, de salud, de seguridad, manufacturación y sostenibilidad.
 - C.m Construye responsablemente soluciones siguiendo un proceso adecuado llevando a cabo las pruebas ajustada a los recursos disponibles del cliente.
 - C.p Aplica de forma flexible técnicas, métodos, principios, normas, estándares y herramientas de ingeniería necesarias para la construcción de software e implementación de sistemas de información.
-
-# CONTENIDO DE LA GUÍA
-
-## MARCO CONCEPTUAL
-## EJERCICIO/PROBLEMA RESUELTO POR EL DOCENTE
-Primer repositorio en GitHub
-- Creamos un nuevo proyecto en GitHub
-- Crearemos un repositorio local usando git init
-- Crearemos un archivo Readme.md con contenido Markup
-- Agregaremos este archivo al staging area usando git add .
-- Hacemos un primer commit en nuestro repositorio local git commit -m “mi primer proyecto en github”
-- Asociamos el repositorio local con el repositorio remoto git remote add origin https://github.com/rescobedoq/pweb2
-- Actualizamos el repositorio remoto con git push origin master
-- Ahora podemos verificar github que nuestro repositorio se actualizó con el archivo local.
-
-## EJERCICIOS/PROBLEMAS PROPUESTOS
-- Cree una cuenta de usuario en github
-- Configure su cuenta de estudiante (https://education.github.com/pack).
-- Se desea crear una clase Calculator en Java, que tenga las siguientes operaciones: add, sub, mul, div, mod; estas operaciones recibirán dos enteros y devolverán un
-entero.
+-->
 
 
 
