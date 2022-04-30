@@ -1,13 +1,12 @@
 public class calculator {
 
-	//Comentario pruebaaa
     static int add(int a, int b){ //Antony
 	// Devuelve la suma entera de 2 numeros enteros recibidos
 		return a + b ;
 	}
-
-	static int sub(int a, int b){  //Oliver
-		//return ;
+	// resta 2 numeros enteros
+	static int sub(int a, int b){  //Oliver 
+		return a-b;
 	}
 	
 	static int mul(int a, int b){ //Jessica
