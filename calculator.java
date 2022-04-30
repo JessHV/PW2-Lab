@@ -1,6 +1,6 @@
 public class calculator {
 
-    static int add(int a, int b){ //Antony
+	static int add(int a, int b){ //Antony
 		// Devuelve la suma entera de 2 numeros enteros recibidos
 		return a + b;
 	}
