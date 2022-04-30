@@ -24,13 +24,13 @@
 </div>
 
 
-<table style="">
+<table>
 <theader>
     <tr><th colspan="6" style="width:50%; height:auto; text-align:center">INFORMACIÓN BÁSICA</th></tr>
 </theader>
 <tbody>
     <tr>
-        <td>ASIGNATURA:</td><td colspan="6">Laboratorio de Programación Web 2</td>
+        <td>ASIGNATURA:</td><td colspan="5">Laboratorio de Programación Web 2</td>
     </tr>
     <tr>
         <td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Git - GitHub</td>
@@ -82,9 +82,9 @@
             </ol>
             Repositorio general<br>https://github.com/JessHV/PW2-Lab.git<br><br>
             Las Ramas de todos<br>
-            <img src="https://drive.google.com/drive/folders/1cpKnHDaPtfznB4MGxzAec161tR_IT2Cg" atl="Ramas de los integrantes del grupo 1"> <br><br>
+            <img src="Branchs.jpg" atl="Ramas de los integrantes del grupo 1"> <br><br>
             Calculadora en java<br>
-            <img src="https://drive.google.com/drive/folders/1cpKnHDaPtfznB4MGxzAec161tR_IT2Cg" atl="Archivo Calculator.java">
+            <img src="CALCULATOR.JAVA.jpg" atl="Archivo Calculator.java">
             </td>
         </tr>
         <tr>
